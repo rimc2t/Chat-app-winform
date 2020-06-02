@@ -18,8 +18,10 @@
   + Gửi sticker
   
 ## Thiết kế USE CASE
+(pending ...)
 
 ## Thiết kế giao diện
+(pending ...)
 
 ## Thiết kế database
 - Sử dụng công cụ quản lý cơ sở dữ liệu Navicat.
@@ -32,6 +34,7 @@
   + Gửi tin nhắn cho 1 người là khởi tạo 1 room_chat đồng thời sẽ tạo các table lưu trữ tin nhắn, thành viên trong room,...
   
 ## Thiết kế Class Diagram cho server và user
+(pending ...)
 
 ## Tạo server
 - Kết nối với database
