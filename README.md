@@ -35,8 +35,10 @@ Môn học: Lập trình mạng căn bản
 
 ## Tạo server
 - Kết nối với database
+- Lấy request từ clients -> Xử lý -> query database -> respone dữ liệu cho clients
 - ...
 
 ## Tạo client
-- Từ giao diện đã có, ta thêm các chức năng vào
+- Từ giao diện đã có, ta thêm các chức năng cơ bản (button, textbox, richtext,...)
+- Gửi request đến server -> nhận respone -> Xử lý thông tin thô và đưa lên giao diện chính
 - ...
