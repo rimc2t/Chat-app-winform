@@ -1,8 +1,8 @@
 # Chat-app-winform-c-
-Tên: Trần Chí Thiện
-MSSV: 18520365
-Trường: Đại học Công Nghệ Thông Tin - Đại học Quốc gia Thành phố Hồ Chí Minh
-Môn học: Lập trình mạng căn bản
+- Tên: Trần Chí Thiện
+- MSSV: 18520365
+- Trường: Đại học Công Nghệ Thông Tin - Đại học Quốc gia Thành phố Hồ Chí Minh
+- Môn học: Lập trình mạng căn bản
 
 ## Mô tả app
 - Là 1 app đơn giản có chức năng chat 1v1, chat nhóm, gửi file, call, ...
