@@ -1,0 +1,9 @@
+E:\Project_VS\chat-client\chat-client\bin\Debug\chat-client.exe.config
+E:\Project_VS\chat-client\chat-client\bin\Debug\chat-client.exe
+E:\Project_VS\chat-client\chat-client\bin\Debug\chat-client.pdb
+E:\Project_VS\chat-client\chat-client\obj\Debug\chat-client.csprojAssemblyReference.cache
+E:\Project_VS\chat-client\chat-client\obj\Debug\chat_client.Form1.resources
+E:\Project_VS\chat-client\chat-client\obj\Debug\chat_client.Properties.Resources.resources
+E:\Project_VS\chat-client\chat-client\obj\Debug\chat-client.csproj.GenerateResource.cache
+E:\Project_VS\chat-client\chat-client\obj\Debug\chat-client.exe
+E:\Project_VS\chat-client\chat-client\obj\Debug\chat-client.pdb
