@@ -1,4 +1,4 @@
-# Chat-app-winform-c-
+# Chat-app-winform
 - Tên: Trần Chí Thiện + Chiêm Tấn Hưng
 - MSSV: 18520365 + 18520789
 - Trường: Đại học Công Nghệ Thông Tin - Đại học Quốc gia Thành phố Hồ Chí Minh
@@ -9,15 +9,12 @@
 - Chi tiết chức năng:
   + Đăng ký
   + Đăng nhập
-  + Tìm tên người dùng (dựa vào username)
-  + Gửi tin nhắn cho user khác (Là tạo 1 room chat với room_type là 1v1)
-  + Đồng ý tin nhắn gửi đến (Là 1 hình thức thêm vào danh sách bạn)
-  + Tạo room chat (room_type là group)
-  + Thêm bạn bè vào room
+  + Tạo room chat
+  + Tham gia vào room chat
   + Gửi file
   + Gửi sticker
   
-## Thiết kế USE CASE
+## USE CASE
 (pending ...)
 
 ## Thiết kế giao diện
@@ -26,12 +23,11 @@
 ## Thiết kế database
 - Sử dụng công cụ quản lý cơ sở dữ liệu Navicat.
 - Khởi tạo database -> Tạo model với 2 table cơ bản:
-![2 table cơ bản](https://i.imgur.com/MaU7j4L.png)
+![2 table cơ bản](https://www.upsieutoc.com/images/2020/06/08/Untitled.jpg)
 - Dựa trên 2 table cơ bản và chức năng của app sau đó ta có công việc xử lý như sau:
   + Thêm user vào mổi khi có tài khoản mới
-  + Mỗi user được tạo sẽ có 1 table profile, list friends,... tương ứng được khởi tạo
-  + ĐỒng ý tin nhắn gửi đến là thêm user đấy vào list friends của cả 2
-  + Gửi tin nhắn cho 1 người là khởi tạo 1 room_chat đồng thời sẽ tạo các table lưu trữ tin nhắn, thành viên trong room,...
+  + Mỗi user được tạo sẽ có 1 tbl_<user>_list_rooms tương ứng được khởi tạo
+  + Mỗi room được tạo sẽ có 1 tbl_<room>_list_users tương ứng được khởi tạo
   
 ## Thiết kế Class Diagram cho server và user
 (pending ...)
