@@ -23,7 +23,9 @@
 ## Thiết kế database
 - Sử dụng công cụ quản lý cơ sở dữ liệu Navicat.
 - Khởi tạo database -> Tạo model với 2 table cơ bản:
+
 ![2 table cơ bản](https://www.upsieutoc.com/images/2020/06/08/Untitled.jpg)
+
 - Dựa trên 2 table cơ bản và chức năng của app sau đó ta có công việc xử lý như sau:
   + Thêm user vào mổi khi có tài khoản mới
   + Mỗi user được tạo sẽ có 1 tbl_<user>_list_rooms tương ứng được khởi tạo
