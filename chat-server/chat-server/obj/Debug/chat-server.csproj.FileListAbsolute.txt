@@ -12,17 +12,3 @@ E:\Project_VS\chat-server\chat-server\bin\Debug\Google.Protobuf.dll
 E:\Project_VS\chat-server\chat-server\bin\Debug\BouncyCastle.Crypto.dll
 E:\Project_VS\chat-server\chat-server\bin\Debug\MySql.Data.xml
 E:\Project_VS\chat-server\chat-server\obj\Debug\chat-server.csproj.CopyComplete
-E:\Github\Chat-app-winform\chat-server\chat-server\bin\Debug\chat-server.exe.config
-E:\Github\Chat-app-winform\chat-server\chat-server\bin\Debug\chat-server.exe
-E:\Github\Chat-app-winform\chat-server\chat-server\bin\Debug\chat-server.pdb
-E:\Github\Chat-app-winform\chat-server\chat-server\bin\Debug\MySql.Data.dll
-E:\Github\Chat-app-winform\chat-server\chat-server\bin\Debug\Google.Protobuf.dll
-E:\Github\Chat-app-winform\chat-server\chat-server\bin\Debug\BouncyCastle.Crypto.dll
-E:\Github\Chat-app-winform\chat-server\chat-server\bin\Debug\MySql.Data.xml
-E:\Github\Chat-app-winform\chat-server\chat-server\obj\Debug\chat-server.csprojAssemblyReference.cache
-E:\Github\Chat-app-winform\chat-server\chat-server\obj\Debug\chat_server.fServer.resources
-E:\Github\Chat-app-winform\chat-server\chat-server\obj\Debug\chat_server.Properties.Resources.resources
-E:\Github\Chat-app-winform\chat-server\chat-server\obj\Debug\chat-server.csproj.GenerateResource.cache
-E:\Github\Chat-app-winform\chat-server\chat-server\obj\Debug\chat-server.csproj.CopyComplete
-E:\Github\Chat-app-winform\chat-server\chat-server\obj\Debug\chat-server.exe
-E:\Github\Chat-app-winform\chat-server\chat-server\obj\Debug\chat-server.pdb
