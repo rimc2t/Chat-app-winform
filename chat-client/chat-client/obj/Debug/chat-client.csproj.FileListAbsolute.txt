@@ -7,12 +7,3 @@ E:\Project_VS\chat-client\chat-client\obj\Debug\chat_client.Properties.Resources
 E:\Project_VS\chat-client\chat-client\obj\Debug\chat-client.csproj.GenerateResource.cache
 E:\Project_VS\chat-client\chat-client\obj\Debug\chat-client.exe
 E:\Project_VS\chat-client\chat-client\obj\Debug\chat-client.pdb
-E:\Github\Chat-app-winform\chat-client\chat-client\bin\Debug\chat-client.exe.config
-E:\Github\Chat-app-winform\chat-client\chat-client\bin\Debug\chat-client.exe
-E:\Github\Chat-app-winform\chat-client\chat-client\bin\Debug\chat-client.pdb
-E:\Github\Chat-app-winform\chat-client\chat-client\obj\Debug\chat-client.csprojAssemblyReference.cache
-E:\Github\Chat-app-winform\chat-client\chat-client\obj\Debug\chat_client.fLogin.resources
-E:\Github\Chat-app-winform\chat-client\chat-client\obj\Debug\chat_client.Properties.Resources.resources
-E:\Github\Chat-app-winform\chat-client\chat-client\obj\Debug\chat-client.csproj.GenerateResource.cache
-E:\Github\Chat-app-winform\chat-client\chat-client\obj\Debug\chat-client.exe
-E:\Github\Chat-app-winform\chat-client\chat-client\obj\Debug\chat-client.pdb

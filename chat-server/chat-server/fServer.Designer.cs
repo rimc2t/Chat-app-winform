@@ -52,7 +52,6 @@
 			this.txtCmd.Name = "txtCmd";
 			this.txtCmd.Size = new System.Drawing.Size(560, 20);
 			this.txtCmd.TabIndex = 1;
-			this.txtCmd.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtCmd_KeyDown);
 			// 
 			// label1
 			// 

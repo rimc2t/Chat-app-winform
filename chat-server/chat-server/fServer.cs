@@ -21,9 +21,8 @@ namespace chat_server
 
 		//Khởi tạo kết nối database
 		string dbHost;
-		string dbUsername;
 		string dbName;
-		string dbPort;
+		string dbUsername;
 		string dbPassword;
 		string conStr;
 		MySqlConnection con;
@@ -43,7 +42,7 @@ namespace chat_server
 			try
 			{
 				con.Open();
-				txtStatus.AppendText("Database is Opened!\n");
+				txtStatus.AppendText("Database is openning...\n");
 			}
 			catch (Exception ex)
 			{
@@ -68,15 +67,13 @@ namespace chat_server
 		{
 			txtStatus.AppendText("Connecting database ...\n");
 			dbHost = "localhost";
+			dbName = "chat_app_wfrm"; 
 			dbUsername = "root";
-			dbName = "chat_app_wfrm";
-			dbPort = "3306";
 			dbPassword = "1302";
 			conStr =
-				"server=" + dbHost +
-				";user=" + dbUsername +
-				";database=" + dbName +
-				";port=" + dbPort +
+				"SERVER=" + dbHost +
+				";DATABASE=" + dbName +
+				";uid=" + dbUsername +
 				";pwd=" + dbPassword + ";";
 			con = new MySqlConnection(conStr);
 		}
@@ -124,32 +121,6 @@ namespace chat_server
 				txtStatus.AppendText("ERROR: " + ex.Message + "\n");
 				acceptedClientSocket.Close();
 				Thread.CurrentThread.Abort();
-			}
-		}
-
-		//TEST truy vấn MySQL
-		private void txtCmd_KeyDown(object sender, KeyEventArgs e)
-		{
-			if (e.KeyCode == Keys.Enter)
-			{
-				string qry = txtCmd.Text;
-				if (qry != "")
-				{
-					try
-					{
-						MySqlCommand cmd = new MySqlCommand(qry, con);
-						object result = cmd.ExecuteScalar();
-						if (result != null)
-						{
-							txtStatus.AppendText("result query: " + result.ToString() + "\n");
-						}
-					}
-					catch(Exception ex)
-					{
-						txtStatus.AppendText("ERROR: " + ex.Message + "\n");
-					}
-					txtCmd.Text = "";
-				}
 			}
 		}
 
