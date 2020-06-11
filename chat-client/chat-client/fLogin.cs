@@ -14,7 +14,6 @@ namespace chat_client
 {
 	public partial class fLogin : Form
 	{
-
 		public fLogin()
 		{
 			InitializeComponent();
