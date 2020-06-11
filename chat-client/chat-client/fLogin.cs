@@ -60,5 +60,12 @@ namespace chat_client
 		{
 
 		}
+
+		private void btnSubmit_Click(object sender, EventArgs e)
+		{
+			fHome home = new fHome();
+			home.Show();
+			this.Hide();
+		}
 	}
 }
