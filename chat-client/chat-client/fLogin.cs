@@ -21,5 +21,44 @@ namespace chat_client
 
 		}
 
+		//Move winform
+		private int mov;
+		private int movX;
+		private int movY;
+
+		private void pnHeader_MouseDown(object sender, MouseEventArgs e)
+		{
+			mov = 1;
+			movX = e.X;
+			movY = e.Y;
+		}
+
+		private void pnHeader_MouseMove(object sender, MouseEventArgs e)
+		{
+			if (mov == 1)
+			{
+				this.SetDesktopLocation(MousePosition.X - movX, MousePosition.Y - movY);
+			}
+		}
+
+		private void pnHeader_MouseUp(object sender, MouseEventArgs e)
+		{
+			mov = 0;
+		}
+
+		private void btnClose_Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
+
+		private void btnHide_Click(object sender, EventArgs e)
+		{
+			this.WindowState = FormWindowState.Minimized;
+		}
+
+		private void btnRegister_Click(object sender, EventArgs e)
+		{
+
+		}
 	}
 }
