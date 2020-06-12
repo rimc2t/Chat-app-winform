@@ -15,7 +15,7 @@ namespace chat_client
 
 		public Client()
 		{
-			MessageBox.Show("hello");
+			MessageBox.Show("hi");
 		}
 
 		~Client()
