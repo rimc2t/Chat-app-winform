@@ -14,7 +14,11 @@ namespace chat_client
 
 		public Client()
 		{
-		
+		}
+
+		~Client()
+		{
+
 		}
 
 	}
