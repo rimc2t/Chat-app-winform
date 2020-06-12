@@ -15,12 +15,12 @@ namespace chat_client
 
 		public Client()
 		{
-			MessageBox.Show("hello");
+			MessageBox.Show("hiiiiiiiiiiiiiiii");
 		}
 
 		~Client()
 		{
-			MessageBox.Show("byebye");
+			MessageBox.Show("halo");
 		}
 
 	}
