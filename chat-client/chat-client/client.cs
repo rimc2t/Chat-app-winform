@@ -20,7 +20,7 @@ namespace chat_client
 
 		~Client()
 		{
-			MessageBox.Show("goodbye");
+			MessageBox.Show("bye");
 		}
 
 	}
