@@ -14,7 +14,7 @@ namespace chat_client
 
 		public Client()
 		{
-			int a = 100;
+		
 		}
 
 	}
