@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Windows.Forms;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -14,11 +15,12 @@ namespace chat_client
 
 		public Client()
 		{
+			MessageBox.Show("hello");
 		}
 
 		~Client()
 		{
-
+			MessageBox.Show("goodbye");
 		}
 
 	}

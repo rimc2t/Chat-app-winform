@@ -14,7 +14,6 @@ namespace chat_client
 {
 	public partial class fLogin : Form
 	{
-		private static Client cl = new Client();
 
 		public fLogin()
 		{
@@ -59,7 +58,8 @@ namespace chat_client
 
 		private void btnRegister_Click(object sender, EventArgs e)
 		{
-
+			Client cl = new Client();
+			cl = null;
 		}
 
 		private void btnSubmit_Click(object sender, EventArgs e)
