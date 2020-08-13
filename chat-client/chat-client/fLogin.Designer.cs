@@ -37,8 +37,8 @@
 			this.btnRegister = new System.Windows.Forms.Label();
 			this.label3 = new System.Windows.Forms.Label();
 			this.label4 = new System.Windows.Forms.Label();
-			this.button1 = new System.Windows.Forms.Button();
-			this.button2 = new System.Windows.Forms.Button();
+			this.btnClose = new System.Windows.Forms.Button();
+			this.btnHide = new System.Windows.Forms.Button();
 			this.pnHeader.SuspendLayout();
 			this.SuspendLayout();
 			// 
@@ -94,6 +94,7 @@
 			this.txtPassword.PasswordChar = '*';
 			this.txtPassword.Size = new System.Drawing.Size(223, 27);
 			this.txtPassword.TabIndex = 1;
+			this.txtPassword.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPassword_KeyDown);
 			// 
 			// btnSubmit
 			// 
@@ -140,29 +141,29 @@
 			this.label4.TabIndex = 9;
 			this.label4.Text = "password:";
 			// 
-			// button1
+			// btnClose
 			// 
-			this.button1.BackColor = System.Drawing.Color.Brown;
-			this.button1.ForeColor = System.Drawing.Color.White;
-			this.button1.Location = new System.Drawing.Point(255, 0);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(45, 45);
-			this.button1.TabIndex = 10;
-			this.button1.Text = "X";
-			this.button1.UseVisualStyleBackColor = false;
-			this.button1.Click += new System.EventHandler(this.btnClose_Click);
+			this.btnClose.BackColor = System.Drawing.Color.Brown;
+			this.btnClose.ForeColor = System.Drawing.Color.White;
+			this.btnClose.Location = new System.Drawing.Point(255, 0);
+			this.btnClose.Name = "btnClose";
+			this.btnClose.Size = new System.Drawing.Size(45, 45);
+			this.btnClose.TabIndex = 10;
+			this.btnClose.Text = "X";
+			this.btnClose.UseVisualStyleBackColor = false;
+			this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
 			// 
-			// button2
+			// btnHide
 			// 
-			this.button2.BackColor = System.Drawing.Color.White;
-			this.button2.ForeColor = System.Drawing.Color.Black;
-			this.button2.Location = new System.Drawing.Point(210, 0);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(45, 45);
-			this.button2.TabIndex = 11;
-			this.button2.Text = "__";
-			this.button2.UseVisualStyleBackColor = false;
-			this.button2.Click += new System.EventHandler(this.btnHide_Click);
+			this.btnHide.BackColor = System.Drawing.Color.White;
+			this.btnHide.ForeColor = System.Drawing.Color.Black;
+			this.btnHide.Location = new System.Drawing.Point(210, 0);
+			this.btnHide.Name = "btnHide";
+			this.btnHide.Size = new System.Drawing.Size(45, 45);
+			this.btnHide.TabIndex = 11;
+			this.btnHide.Text = "__";
+			this.btnHide.UseVisualStyleBackColor = false;
+			this.btnHide.Click += new System.EventHandler(this.btnHide_Click);
 			// 
 			// fLogin
 			// 
@@ -170,8 +171,8 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.MediumTurquoise;
 			this.ClientSize = new System.Drawing.Size(300, 400);
-			this.Controls.Add(this.button2);
-			this.Controls.Add(this.button1);
+			this.Controls.Add(this.btnHide);
+			this.Controls.Add(this.btnClose);
 			this.Controls.Add(this.label4);
 			this.Controls.Add(this.label3);
 			this.Controls.Add(this.btnRegister);
@@ -183,6 +184,7 @@
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Name = "fLogin";
 			this.Text = "LOGIN";
+			this.Load += new System.EventHandler(this.fLogin_Load);
 			this.pnHeader.ResumeLayout(false);
 			this.pnHeader.PerformLayout();
 			this.ResumeLayout(false);
@@ -201,8 +203,8 @@
 		private System.Windows.Forms.Label btnRegister;
 		private System.Windows.Forms.Label label3;
 		private System.Windows.Forms.Label label4;
-		private System.Windows.Forms.Button button1;
-		private System.Windows.Forms.Button button2;
+		private System.Windows.Forms.Button btnClose;
+		private System.Windows.Forms.Button btnHide;
 	}
 }
 

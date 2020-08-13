@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -46,26 +47,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="client.cs" />
+    <Compile Include="ConnectServer.cs" />
+    <Compile Include="fChat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fChat.Designer.cs">
+      <DependentUpon>fChat.cs</DependentUpon>
+    </Compile>
     <Compile Include="fLogin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="fLogin.Designer.cs">
       <DependentUpon>fLogin.cs</DependentUpon>
     </Compile>
-    <Compile Include="fHome.cs">
+    <Compile Include="fRegister.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="fHome.Designer.cs">
-      <DependentUpon>fHome.cs</DependentUpon>
+    <Compile Include="fRegister.Designer.cs">
+      <DependentUpon>fRegister.cs</DependentUpon>
     </Compile>
+    <Compile Include="HandleClient.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="fChat.resx">
+      <DependentUpon>fChat.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="fLogin.resx">
       <DependentUpon>fLogin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="fHome.resx">
-      <DependentUpon>fHome.cs</DependentUpon>
+    <EmbeddedResource Include="fRegister.resx">
+      <DependentUpon>fRegister.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

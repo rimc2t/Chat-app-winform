@@ -39,9 +39,12 @@
 			// 
 			// txtStatus
 			// 
-			this.txtStatus.Enabled = false;
+			this.txtStatus.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			this.txtStatus.Cursor = System.Windows.Forms.Cursors.Default;
 			this.txtStatus.Location = new System.Drawing.Point(12, 41);
 			this.txtStatus.Name = "txtStatus";
+			this.txtStatus.ReadOnly = true;
+			this.txtStatus.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
 			this.txtStatus.Size = new System.Drawing.Size(560, 282);
 			this.txtStatus.TabIndex = 0;
 			this.txtStatus.Text = "";
@@ -116,6 +119,7 @@
 			this.Controls.Add(this.txtStatus);
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Name = "fServer";
+			this.RightToLeft = System.Windows.Forms.RightToLeft.No;
 			this.Text = "CHAT SERVER";
 			this.Load += new System.EventHandler(this.fServer_Load);
 			this.pnHeader.ResumeLayout(false);

@@ -16,4 +16,5 @@ E:\Github\Chat-app-winform\chat-client\chat-client\obj\Debug\chat_client.Propert
 E:\Github\Chat-app-winform\chat-client\chat-client\obj\Debug\chat-client.csproj.GenerateResource.cache
 E:\Github\Chat-app-winform\chat-client\chat-client\obj\Debug\chat-client.exe
 E:\Github\Chat-app-winform\chat-client\chat-client\obj\Debug\chat-client.pdb
-E:\Github\Chat-app-winform\chat-client\chat-client\obj\Debug\chat_client.fHome.resources
+E:\Github\Chat-app-winform\chat-client\chat-client\obj\Debug\chat_client.fRegister.resources
+E:\Github\Chat-app-winform\chat-client\chat-client\obj\Debug\chat_client.fChat.resources
